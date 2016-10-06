@@ -11,6 +11,7 @@ public class Stack {
     this.arraySize = size;
     this.topOfStack = 0;
     this.array = new int[arraySize];
+    this.itemsInStack = 0;
     }
   
   public boolean isEmpty() {
